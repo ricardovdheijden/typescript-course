@@ -4,9 +4,10 @@ type Person = {
 }
 
 
-const person = {
-    name: 'Ricardo'
+const person: Person = {
+    firstName: 'Ricardo',
+    age: 34
 }
 
 // Auto complete
-console.log(person.name)
+console.log(person.firstName)
