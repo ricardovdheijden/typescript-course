@@ -15,7 +15,7 @@ pig.greet()
 class Dog implements Animal {
     name: string
 
-    constructor(n: string) {
+   constructor(n: string) {
         this.name = n
     }
 
@@ -26,3 +26,7 @@ class Dog implements Animal {
 }
 const dog = new Dog('Spike')
 dog.greet()
+
+let anotherDog: Animal
+anotherDog = new Dog('Max')
+anotherDog.greet()
