@@ -1,6 +1,6 @@
 let dontKnow: any
 dontKnow = 5
 dontKnow = true
-dontKnow = 'Ricardo'
+// dontKnow = 'Ricardo'
 
 console.log(dontKnow.toUpperCase())

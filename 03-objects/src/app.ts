@@ -1,13 +1,13 @@
-type Person = {
-    firstName: string
-    age: number
-}
+// type Person = {
+//     firstName: string
+//     age: number
+// }
 
 
-const person: Person = {
+const person = {
     firstName: 'Ricardo',
     age: 34
 }
 
 // Auto complete
-console.log(person.firstName)
+console.log(person.age)
