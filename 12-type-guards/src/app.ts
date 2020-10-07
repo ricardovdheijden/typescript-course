@@ -3,7 +3,7 @@
     type Input = string | number
 
     function printToConsole(input: Input) {
-        typeof input === "string" ? console.log(input.toUpperCase()) : console.log(input + 5)
+        typeof input === "string" ? console.log(input.toUpperCase()) : console.log(input * 5)
     }
 
     console.log('--- typeof ---')
